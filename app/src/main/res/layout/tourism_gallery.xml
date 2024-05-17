@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnHagdan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#AABCD3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/gallery"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <ImageButton
+                            android:id="@+id/btnOldSpc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="175dp"
+                            android:layout_margin="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/picture"
+                            android:foreground="@drawable/pic_tourism_gallery_historyspc"
+                            android:scaleType="centerCrop"
+                            tools:ignore="DuplicateSpeakableTextCheck" />
+
+                        <ImageButton
+                            android:id="@+id/btnFarcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="175dp"
+                            android:layout_margin="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#00ffffff"
+                            android:contentDescription="@string/picture"
+                            android:foreground="@drawable/pic_tourism_gallery_farcon"
+                            android:scaleType="centerCrop"
+                            tools:ignore="DuplicateSpeakableTextCheck" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <ImageButton
+                            android:id="@+id/btnCityhall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="175dp"
+                            android:layout_margin="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="#00ffffff"
+                            android:contentDescription="@string/picture"
+                            android:foreground="@drawable/pic_tourism_gallery_cityhall"
+                            android:scaleType="centerCrop"
+                            tools:ignore="DuplicateSpeakableTextCheck" />
+
+                        <ImageButton
+                            android:id="@+id/btnSampa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="175dp"
+                            android:layout_margin="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:foreground="@drawable/pic_tourism_gallery_sampaloclake"
+                            android:scaleType="centerCrop"
+                            android:contentDescription="@string/picture" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <ImageButton
+                            android:id="@+id/btnCath"
+                            android:layout_width="wrap_content"
+                            android:layout_height="175dp"
+                            android:layout_margin="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:foreground="@drawable/pic_tourism_gallery_spcathedral"
+                            android:src="@android:drawable/btn_star"
+                            android:contentDescription="@string/picture" />
+
+                        <ImageButton
+                            android:id="@+id/btnOldCath"
+                            android:layout_width="wrap_content"
+                            android:layout_height="175dp"
+                            android:layout_margin="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:foreground="@drawable/pic_tourism_gallery_oldcathedral"
+                            android:src="@android:drawable/btn_star"
+                            android:contentDescription="@string/picture" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp">
+
+                        <ImageButton
+                            android:id="@+id/btnPlsp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="175dp"
+                            android:layout_margin="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:foreground="@drawable/pic_tourism_gallery_plsp"
+                            android:src="@android:drawable/btn_star"
+                            android:contentDescription="@string/picture" />
+
+                        <ImageButton
+                            android:id="@+id/btnHagda"
+                            android:layout_width="wrap_content"
+                            android:layout_height="175dp"
+                            android:layout_margin="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:foreground="@drawable/pic_tourism_gallery_hagdangbato"
+                            android:src="@android:drawable/btn_star"
+                            android:contentDescription="@string/picture" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
